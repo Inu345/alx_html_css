@@ -380,7 +380,7 @@
   }
   /* Section SERVICES ============================= */
   .section-services .row {
-    display: flex;
+    display: flex; /*now a flex container */
     flex-wrap: wrap;
 
   }
