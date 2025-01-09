@@ -1,0 +1,88 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+/*Everything needed for the header part which is the 1st part of the website */
+
+/* creating the background image for the page and aligning text */
+.background-container {
+    background-image: url(headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1400px;
+    color: white; /* Make text readable on the background */
+    
+
+
+}
+.header-title {
+margin-bottom: 0;
+}
+.header-info {
+  margin-top: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav {
+
+
+    list-style: none;
+    text-align: center;
+    display: flex;
+    
+  }
+
+  .nav .nav-item {
+    display: block;
+    margin: 0 5px;
+    position: relative;
+  }
+
+.main {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 300px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover{
+  color: #f50505;
+}
+.button-container {
+  text-align: center;
+  margin: 50px 0;
+}
+.button {
+  display: inline-block; /* Makes it behave like a button */
+  background-color: #ff5c5c; /* Button background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes underline from links */
+  padding: 15px 30px; /* Padding inside the button */
+  border-radius: 80px; /* Rounded corners */
+  font-size: 15px; /* Font size */
+  font-weight: bold; /* Makes the text bold */
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  transition: all 0.3s ease; /* Smooth hover effects */
+
+}
+.button:hover {
+  background-color: #ff3a3a; /* Slightly darker color on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  transform: scale(1.05); /* Slightly enlarges the button */
+}
