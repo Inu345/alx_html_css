@@ -86,3 +86,172 @@ margin-bottom: 0;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
   transform: scale(1.05); /* Slightly enlarges the button */
 }
+.section-what-we-do .container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  
+}
+.article-container {
+  display: flex;
+  text-align: center;
+  padding-top: 100px;
+  justify-content: space-around;
+  gap: 20px; /*space between items*/
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+/*giving color and size to the icons*/
+.fa-solid {
+  color: #ff5c5c;
+  font-size: 48px; 
+}
+.fa-brands{
+  color: #ff5c5c;
+  font-size: 48px;
+}
+.section-what-we-do .section-header {
+  padding-bottom: 10px; /*creating space between the header and the wordings */
+
+
+}
+.article-container{
+  margin-bottom: 100px;
+}
+.pentagon-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 200px;
+
+}
+.pentagon {
+  position: relative;
+  background-color: #ff6b6b;
+  width: 160px;
+  height: 160px; /* Base width for the main pentagon */
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  
+  
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.pentagon h4 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 10px; /* Reduce space below the heading */
+}
+.pentagon p {
+  font-size: 0.8em;
+  margi
+  
+}
+.our-results .container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 100px;
+  
+}
+.our-results .header {
+  font-size: xx-large;
+  font-weight: 500;
+
+}
+.our-results {
+  background-image: url(headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 650px;
+    width: 1400px;
+    color: white; /* Make text readable on the background */
+
+}
+.contact-container {
+  color: black;
+  
+  padding: 40px;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  
+  
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 50px auto;
+}
+
+label {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  margin: 10px 0 5px;
+  font-weight: bolder;
+}
+input, textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+}
+textarea {
+  resize: none;
+}
+button {
+  background: #ff5c5c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #ff3c3c;
+}
+
+.contact-header {
+  font-size: 30px;
+}
+footer {
+  background-color:  #0D1A2D;
+  position: relative;
+  
+  
+  
+
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-end; /* Push icons to the right */
+  align-items: center; /* Align center vertically */
+  gap: 20px; /* Space between icons */
+}
+
+.social-icons a {
+  display: inline-flex; /* Make <a> inline-flex to prevent stacking */
+}
+
+
